@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [ 'LICENSE', 'README.md', 'NEWS.md' ]
 
   s.add_runtime_dependency('nanoc')
+
+  # filters
   s.add_runtime_dependency('nanoc-asciidoc')
   s.add_runtime_dependency('nanoc-bluecloth')
   s.add_runtime_dependency('nanoc-coffeescript')
@@ -50,5 +52,16 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('nanoc-uglify_js')
   s.add_runtime_dependency('nanoc-xsl')
   s.add_runtime_dependency('nanoc-yui_compressor')
+
+  # helpers
+  s.add_runtime_dependency('nanoc-blogging')
+  s.add_runtime_dependency('nanoc-breadcrumbs')
+  s.add_runtime_dependency('nanoc-capturing')
+  s.add_runtime_dependency('nanoc-escaping')
+  s.add_runtime_dependency('nanoc-filtering')
+  s.add_runtime_dependency('nanoc-linking')
+  s.add_runtime_dependency('nanoc-rendering')
+  s.add_runtime_dependency('nanoc-tagging')
+  s.add_runtime_dependency('nanoc-xml_sitemap')
 
 end
